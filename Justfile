@@ -2,6 +2,8 @@
 # Justfile for k9_gleam
 
 # Default recipe — list available commands
+import? "contractile.just"
+
 default:
     @just --list
 
